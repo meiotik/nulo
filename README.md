@@ -1,17 +1,12 @@
-<h1>
-  <a href="https://meiotik.github.io/nulo">
-    <img align="right" src="./img/nulo.svg" alt="nulo logo" width="117"/>
-  </a>
-  𝔫𝔲𝔩𝔬 𝔦𝔭𝔰𝔢 𝔡𝔦𝔵𝔦𝔱 🌒
+<h1>&#x1d52b;&#x1d532;&#x1d529;&#x1d52c;&#32;&#x1d526;&#x1d52d;&#x1d530;&#x1d522;&#32;&#x1d521;&#x1d526;&#x1d535;&#x1d526;&#x1d531;&#32;&#127762;
+<a href="https://meiotik.github.io/nulo"><img align="right" src="./img/nulo.svg" alt="nulo logo" width="117"/></a>
 </h1>
 
-
-
-# Wallet Statements Cost basis Comptometer for [Luno](https://www.luno.com/).
+# Wallet Statements Cost basis Comptometer for [Luno](https://luno.com/).
 
 ## How do I download my wallet statements?
-1. [Sign in to your Luno](https://www.luno.com/login) account on the web
-2. Select [Portfolio](https://www.luno.com/wallet/accounts)
+1. [Sign in to your Luno](https://luno.com/login) account on the web
+2. Select [Portfolio](https://luno.com/wallet/accounts)
 3. Select the wallet you'd like to download a statement for
 4. Scroll all the way to the bottom and select **DOWNLOAD STATEMENT**
 5. Select a **Begin date** and an **End date**, choose **CSV format**, and select **CREATE STATEMENT**
@@ -20,10 +15,14 @@
 
 ---
 ## Privacy Policy
-_**Your privacy is absolute.** This application operates entirely through client-side JavaScript running locally within your own web browser; no data is ever collected, logged, tracked via cookies, or transmitted to an external server.
-Because all data processing occurs strictly on your machine, you can safely disconnect your Internet connection and run this tool entirely offline.
-Please note that while this application itself is completely isolated from the Internet, third-party browser extensions installed on your device may still monitor your browsing activity; **for absolute privacy, we recommend running this tool in a private or incognito window with extensions disabled, and your network adapters disabled/unplugged**._
+This code runs entirely as local client-side JavaScript within your ES10+ web browser of choice;
+- No remote connections whatsoever. No data is transmitted, collected, baked, tracked or logged.
+- Download or load <kbd>[index.html](https://meiotik.github.io/nulo)</kbd>, then disable & unplug your network interfaces, sculpt yourself a fresh tin-foil hat and run it entirely offline.
+- Beware of zealotous intermediaries - browsers and browser extensions, download managers, anti-virus suites, AI agents, trojans, ISPs & OSs - these all pose significant risk for data exposure. Keep things simple - fortify yourself.
+- _This code is 100% ASCII only, hence it does not encrypt or obfuscate anything. All processing happens as plain text and simple data structures._
+- **Your privacy is ultimately your own concern. Keep this in mind. &#x2661;**
+
 <!--[![GNU General Public License version 3](./img/GPLv3.svg)](https://www.gnu.org/licenses/gpl-3.0.html) -->
 [<img align="right" src="./img/GPLv3.svg" alt="GNU General Public License version 3"/>](https://www.gnu.org/licenses/gpl-3.0.html)
 ## Legal Notice
-This project is entirely independent and is not affiliated, associated, authorized, endorsed by, or in any way officially connected with Luno PTY (Ltd), Luno Global, BitX, DCG or any of its subsidiaries or corporate affiliates. The official Luno website can be found at [luno.com](https://www.luno.com/).
+This code is entirely independent and is not affiliated, associated, authorized, endorsed by, or in any way officially connected with [BitX](https://bitx.co.za/), [Luno PTY (Ltd)](https://luno.com), [Luno Global](https://x.com/lunoglobal), [DCG](https://dcg.co) or any of its subsidiaries or corporate affiliates.
