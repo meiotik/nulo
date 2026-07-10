@@ -22,7 +22,7 @@
 ## Privacy Policy
 _**Your privacy is absolute.** This application operates entirely through client-side JavaScript running locally within your own web browser; no data is ever collected, logged, tracked via cookies, or transmitted to an external server.
 Because all data processing occurs strictly on your machine, you can safely disconnect your Internet connection and run this tool entirely offline.
-Please note that while this application itself is completely isolated from the Internet, third-party browser extensions installed on your device may still monitor your browsing activity; **for absolute privacy, we recommend running this tool in a private or incognito window with extensions disabled, and your network afapters disabled/unplugged**._
+Please note that while this application itself is completely isolated from the Internet, third-party browser extensions installed on your device may still monitor your browsing activity; **for absolute privacy, we recommend running this tool in a private or incognito window with extensions disabled, and your network adapters disabled/unplugged**._
 <!--[![GNU General Public License version 3](./img/GPLv3.svg)](https://www.gnu.org/licenses/gpl-3.0.html) -->
 [<img align="right" src="./img/GPLv3.svg" alt="GNU General Public License version 3"/>](https://www.gnu.org/licenses/gpl-3.0.html)
 ## Legal Notice
