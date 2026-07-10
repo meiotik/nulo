@@ -1,6 +1,6 @@
 <h1>
   <a href="https://github.com/meiotik/nulo">
-    <img align="right" src="./img/nulo.svg" alt="nulo logo" width="122"/>
+    <img align="right" src="./img/nulo.svg" alt="nulo logo" width="117"/>
   </a>
   𝔫𝔲𝔩𝔬 𝔦𝔭𝔰𝔢 𝔡𝔦𝔵𝔦𝔱
 </h1>
