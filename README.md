@@ -1,4 +1,4 @@
-<a href="https://github.com/meiotik/nulo"><img align="right" src="./img/nulo.svg" alt="nulo logo" width="183" /></a>
+<a href="https://github.com/meiotik/nulo"><img align="right" src="./img/nulo.svg" alt="nulo logo" width="122" /></a>
 # nulo ipse dixit
 Multiple Wallet Statements Cost basis Comptometer for [luno.com](https://www.luno.com/).
 
