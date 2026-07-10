@@ -1,5 +1,5 @@
 <h1>
-  <a href="https://github.com/meiotik/nulo">
+  <a href="https://meiotik.github.io/nulo">
     <img align="right" src="./img/nulo.svg" alt="nulo logo" width="117"/>
   </a>
   𝔫𝔲𝔩𝔬 𝔦𝔭𝔰𝔢 𝔡𝔦𝔵𝔦𝔱 🌒
