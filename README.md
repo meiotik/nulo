@@ -7,7 +7,7 @@
 
 
 
-# Multiple Wallet Statements Cost basis Comptometer for [Luno](https://www.luno.com/).
+# Wallet Statements Cost basis Comptometer for [Luno](https://www.luno.com/).
 
 ## How do I download my wallet statements?
 1. [Sign in to your Luno](https://www.luno.com/login) account on the web
