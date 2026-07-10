@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 854 224" width="183" height="48">
-<style>g{fill:#fff} @media(prefers-color-scheme:dark) {g{fill:#24e}}</style>
+<style>g{fill:#24e} @media(prefers-color-scheme:dark) {g{fill:#fff}}</style>
 <defs>
 <path id="n" d="M97 96q-1 12-12 13H75q-11-1-12-13V-20s0-55-63-55-63 55-63 56V96q-1 12-12 13h-10q-11-1-12-13V-20c0-47 34-89 97-89s97 42 97 89"/>
 <use  id="u" href="#n" transform="scale(1-1)"/>
