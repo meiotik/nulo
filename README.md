@@ -17,8 +17,9 @@
 5. Select a **Begin date** and an **End date**, choose **CSV format**, and select **CREATE STATEMENT**
 6. Scroll down to the **Statements** section and select **DOWNLOAD** to get your statement
 
+
 ---
-[<img align="right" src="./img/GPLv3.svg" alt="GNU General Public License version 3"/>](https://www.gnu.org/licenses/gpl-3.0.html)
 <!--[![GNU General Public License version 3](./img/GPLv3.svg)](https://www.gnu.org/licenses/gpl-3.0.html) -->
+[<img align="right" src="./img/GPLv3.svg" alt="GNU General Public License version 3"/>](https://www.gnu.org/licenses/gpl-3.0.html)
 ## Legal Notice
-This project is entirely independent and is not affiliated, associated, authorized, endorsed by, or in any way officially connected with Luno, Luno PTY (Ltd), Luno Global, BitX, DCG or any of its subsidiaries or corporate affiliates. The official Luno website can be found at https://luno.com/.
+This project is entirely independent and is not affiliated, associated, authorized, endorsed by, or in any way officially connected with Luno PTY (Ltd), Luno Global, BitX, DCG or any of its subsidiaries or corporate affiliates. The official Luno website can be found at [luno.com](https://www.luno.com/).
