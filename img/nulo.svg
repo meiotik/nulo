@@ -1,14 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 854 224" width="122" height="32">
-<style>g{fill:#24e} @media(prefers-color-scheme: dark){g{fill:#fff}}</style>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 220" width="156" height="44" fill="none" stroke-width="55" stroke-linecap="round">
+<style>g{stroke:#fff} @media(prefers-color-scheme:dark) {g{stroke:#24e}}</style>
 <defs>
-<path id="n" d="M97 96q-1 12-12 13H75q-11-1-12-13V-20s0-55-63-55-63 55-63 56V96q-1 12-12 13h-10q-11-1-12-13V-20c0-47 34-89 97-89s97 42 97 89"/>
+<path id="n" d="M64 74v-84c0-42-28-64-64-64s-64 22-64 64v84"/>
 <use  id="u" href="#n" transform="scale(1-1)"/>
-<path id="l" d="M-77-96q1-12 13-13h8q12 1 13 13V20s0 55 64 55h43q12 1 13 13v8q-1 12-13 13H20c-63 0-97-43-97-89"/>
-<path id="o" d="M-76 2A1 1 0 0076 2v-4A1 1 0 00-76-2zM0-111a1 1 90 010 222 1 1 90 010-222"/>
+<path id="l" d="M-50-74v84c0 34 20 64 70 64h28"/>
+<path id="o" d="M0-74A60 60 90 100 74 60 60 90 100-74"/>
 </defs>
 <g>
-<use x="98"  y="112" href="#n"/>
-<use x="331" y="114" href="#u"/>
-<use x="546" y="114" href="#l"/>
-<use x="742" y="112" href="#o"/>
+<use x="100" y="110" href="#n"/>
+<use x="304" y="110" href="#u"/>
+<use x="496" y="110" href="#l"/>
+<use x="670" y="110" href="#o"/>
 </g></svg>
