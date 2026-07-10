@@ -1,6 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 280" width="102" height="42">
-<style>.fg {fill:#f40} .bg {fill:#222} @media (prefers-color-scheme: dark) {.fg {fill:#64b} .bg {fill:#a9d}}</style>
-<path class="bg" d="M2 210c-3 13 9 27 22 27h325s14 73 133 28S694 110 638 92c25-20 49-46 39-76s-72-9-82-4H75c-13 0-29 5-32 18"/>
+<style>
+.fg{fill:#edf}.bg{fill:#428} @media (prefers-color-scheme: dark) {
+.fg{fill:#a7d}.bg{fill:#102}}}
+</style>
+<path class="bg" d="M2 210c-3 13 9 27 22 27h325s14 73 133 28S694 110 638 92c25-20 49-46 39-76s-75-10-82-8-18 5-38 13H357s-2-9-1-21c0 0-8 12-11 21H75c-13 0-33 5-36 18Z"/>
 <path class="fg" d="M54 56c2-9 15-11 20-11h64q18 1 16 10l-8 35h-22l7-33H76L49 180h55l11-50H89l3-12h48l-14 64c-1 4-7 10-21 10H42c-10 0-18-3-16-11Zm119-11h79c7 0 18 2 16 11l-15 67q-4 11-21 11h-57l-13 58h-22Zm5 76h54l14-64h-54Zm104-76h22l-30 135h52l2 12h-78Zm71-33q-1 62 26 140-25 38-27 64c-31-104-7-191 1-204m242 0c-44 16-126 50-179 124s1 107 102 59 99-89-7-42c10-10 28-23 42-32 90-72 38-84-44-25 11-28 46-54 67-66s74-30 89-16 5 47-48 84c51-2 26 49-33 97s-178 107-218 56S447 52 595 12"/>
-<text class="fg" x="25" y="228" style="font:italic small-caps 700 40px system-ui,-apple-system,sans-serif">Free Software</text>
+<text class="fg" x="30" y="230" style="font:italic small-caps 700 42px system-ui,-apple-system,sans-serif">Free Software</text>
 </svg>
