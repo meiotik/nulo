@@ -40,7 +40,10 @@ jobs:
         shell: python
         run: |
           import re
-
+          
+          def clean_to_ascii(text):
+              return "".join(char for char in text if ord(char) <= 127)
+          
           # Read source files
           with open("nulo.html", "r", encoding="utf-8") as f:
               html = clean_to_ascii(f.read())
