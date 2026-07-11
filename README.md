@@ -9,9 +9,9 @@
 2. Select [Portfolio](https://luno.com/wallet/accounts)
 3. Select the wallet you'd like to download a statement for
 4. Scroll all the way to the bottom and select **DOWNLOAD STATEMENT**
-5. Select a **Begin date** (before wallet creation) and an **End date** (today, maybe?), choose **CSV format**, and select **CREATE STATEMENT**
+5. Select a **Begin date** (a date before the wallet was created) and an **End date** (today, maybe?), choose **CSV format**, and select **CREATE STATEMENT**
 6. Scroll down to the **Statements** section and select **DOWNLOAD** to get your statement
-7. Repeat these steps for each wallets.
+7. Repeat these steps for each applicable wallet, including your local currency wallet.
 
 
 ---
