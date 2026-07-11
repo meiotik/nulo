@@ -5,12 +5,12 @@
 # Wallet Statements Cost basis Comptometer for [Luno](https://luno.com/).
 
 ## How to export your Luno wallet statements?
-1. [Sign in to your Luno](https://luno.com/login) account on the web
-2. Select [Portfolio](https://luno.com/wallet/accounts)
-3. Select the wallet you'd like to download a statement for
-4. Scroll all the way to the bottom and select **DOWNLOAD STATEMENT**
-5. Select a **Begin date** (a date before the wallet was created) and an **End date** (today, maybe?), choose **CSV format**, and select **CREATE STATEMENT**
-6. Scroll down to the **Statements** section and select **DOWNLOAD** to get your statement
+1. [Sign in to your Luno](https://luno.com/login) account using a web browser.
+2. Select [Portfolio](https://luno.com/wallet/accounts).
+3. Select the wallet you'd like to download a statement for.
+4. Scroll all the way to the bottom and select **DOWNLOAD STATEMENT**.
+5. Select a **Begin date** _(choose a date before the wallet was created)_ and an **End date** _(choose today, maybe?)_, choose **CSV format**, and select **CREATE STATEMENT**.
+6. Scroll down to the **Statements** section and select **DOWNLOAD** to get your statement.
 7. Repeat steps 3 to 6 for each applicable wallet, including your local currency wallet.
 
 
