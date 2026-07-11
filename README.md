@@ -4,7 +4,7 @@
 
 # Wallet Statements Cost basis Comptometer for [Luno](https://luno.com/).
 
-## How do I download my wallet statements?
+## How to export your Luno wallet statements?
 1. [Sign in to your Luno](https://luno.com/login) account on the web
 2. Select [Portfolio](https://luno.com/wallet/accounts)
 3. Select the wallet you'd like to download a statement for
