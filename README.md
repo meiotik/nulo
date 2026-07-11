@@ -2,15 +2,15 @@
 <a href="https://meiotik.github.io/nulo"><img align="right" src="./img/nulo.svg" alt="nulo logo" width="117"/></a>
 </h1>
 
-# Wallet Statements Cost basis Comptometer for [Luno](https://luno.com/).
+# Wallet Statements Cost Basis Comptometer for [Luno](https://luno.com/).
 
-## How to export your Luno wallet statements?
+## How to export your wallet statements from Luno?
 1. [Sign in to your Luno](https://luno.com/login) account using a web browser.
 2. Select [Portfolio](https://luno.com/wallet/accounts).
 3. Select the wallet you'd like to download a statement for.
 4. Scroll all the way to the bottom and select **DOWNLOAD STATEMENT**.
 5. Select a **Begin date** _(choose a date before the wallet was created)_ and an **End date** _(choose today, maybe?)_, choose **CSV format**, and select **CREATE STATEMENT**.
-6. Scroll down to the **Statements** section and select **DOWNLOAD** to download your statement.
+6. Scroll down to the **Statements** section and select **DOWNLOAD** to store your statement locally.
 7. **Repeat steps 3 to 6 for each applicable wallet, including your local currency wallet.**
 
 
