@@ -97,7 +97,7 @@ body, html {
 	font-size: 1.2rem;
 	font-weight: bold;
 	color: #26e;
-	background-color: #bbb;
+	background-color: #ccc;
 	transform: scale(0.9);
 	opacity: 0;
 	transition: all 0.2s ease;
