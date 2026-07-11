@@ -53,14 +53,14 @@ jobs:
               js = clean_to_ascii(f.read())
 
           # Format replacement tags
-          inline_css = f"<style>\n{css}\n</style>"
-          inline_js = f"<script>\n{js}\n</script>"
+          #inline_css = f"<style>\n{css}\n</style>"
+          #inline_js = f"<script>\n{js}\n</script>"
 
           # Inline replace the CSS @import line
-          html = re.sub(r'@import\s+url\(["\']?.*?blah\.css["\']?\);?', lambda m: inline_css, html, flags=re.IGNORECASE)
+          html = re.sub(r'@import\s+url\(["\']?.*?nulo\.css["\']?\);?', lambda m: css, html, flags=re.IGNORECASE)
                     
           # Inline replace the JS fetch shortie line
-          html = re.sub(r'fetch\(["\']\./blah\.js["\']\)\s*\.\s*then\(\s*r\s*=>\s*r\.text\(\)\s*\)\s*\.\s*then\(\s*eval\s*\);?', lambda m: inline_js, html, flags=re.IGNORECASE)
+          html = re.sub(r'fetch\(["\']\./nulo\.js["\']\)\s*\.\s*then\(\s*r\s*=>\s*r\.text\(\)\s*\)\s*\.\s*then\(\s*eval\s*\);?', lambda m: js, html, flags=re.IGNORECASE)
 
           # Double-check the final output just in case
           html = clean_to_ascii(html)          
