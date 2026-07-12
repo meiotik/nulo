@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 220" width="156" height="44" fill="none" stroke-width="65" stroke-linecap="round">
+<style>g{stroke:#24e} @media(prefers-color-scheme:dark){g{stroke:#fff}}</style>
+<defs>
+<path id="n" d="M64 75V-15C64-50 40-75 0-75S-64-50-64-16V75"/>
+<use  id="u" href="#n" transform="scale(1-1)"/>
+<path id="l" d="M50 75H0s-50 0-50-50V-75"/>
+<path id="o" d="M0-75A60 60 0 100 75 60 60 0 100-75"/>
+</defs>
+<g>
+<use  x="97" y="110" href="#n"/>
+<use x="300" y="112" href="#u"/>
+<use x="490" y="110" href="#l"/>
+<use x="672" y="110" href="#o"/>
+</g></svg>
