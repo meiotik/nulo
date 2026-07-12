@@ -84,7 +84,7 @@ jobs:
           with open("nulo.js", "r", encoding="utf-8") as f:
             js_text = minify_js(f.read())
 
-          html_text = re.sub(r'@import\s+url\(["\']?.*?nulo\.css["\']?\);?', lambda m: css_text, html_text, flags=re.IGNORECASE)
+          html_text = re.sub(r'@import\s+url\(["\']?.*?\./nulo\.css["\']?\);?', lambda m: css_text, html_text, flags=re.IGNORECASE)
           html_text = re.sub(r'fetch\(["\']\./nulo\.js["\']\)\s*\.\s*then\(\s*r\s*=>\s*r\.text\(\)\s*\)\s*\.\s*then\(\s*eval\s*\);?', lambda m: js_text, html_text, flags=re.IGNORECASE)
           html_text = asciify(html_text)
 
