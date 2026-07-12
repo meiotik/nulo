@@ -11,7 +11,7 @@
 4. Scroll all the way to the bottom and select **DOWNLOAD STATEMENT**.
 5. Select a **Begin date** _(choose any date before the wallet was created)_ and an **End date** _(choose today, maybe?)_, choose **CSV format**, and select **CREATE STATEMENT**.
 6. Scroll down to the **Statements** section and select **DOWNLOAD** to store your statement locally.
-7. **Repeat steps 3 to 6 for each applicable wallet, including your local currency wallet.**
+7. **Repeat steps 3 to 6** for each applicable wallet, including your **local currency wallet**.
 
 
 ---
