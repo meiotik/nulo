@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 220" width="156" height="44" fill="none" stroke-width="65" stroke-linecap="round">
-<style>g{stroke:#24e} @media(prefers-color-scheme:dark){g{stroke:#fff}}</style>
+<style>g{stroke:#08f} @media(prefers-color-scheme:dark){g{stroke:#fd8}}</style>
 <defs>
 <path id="n" d="M64 75V-15C64-50 40-75 0-75S-64-50-64-16V75"/>
 <use  id="u" href="#n" transform="scale(1-1)"/>
