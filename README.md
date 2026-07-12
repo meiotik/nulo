@@ -19,7 +19,7 @@
 This code runs entirely as local client-side JavaScript within your ES10+ web browser of choice;
 - No remote connections whatsoever. No data is transmitted, collected, logged, tracked, persisted, baked, planted or issued.
 - Load or download <kbd>[index.html](https://meiotik.github.io/nulo)</kbd>, then disable & unplug your network interfaces, sculpt yourself a fresh tin-foil hat and run it entirely offline.
-- Beware of zealotous intermediaries - browsers and browser extensions, download managers, anti-virus suites, AI agents, data-brokers, trojans, ISPs & OSs - these all pose significant risk for personal exposure. Keep things simple - fortify yourself against vultures.
+- Beware of zealotous intermediaries - browsers and browser extensions, download managers, anti-virus suites, AI agents, data-brokers, trojans, ISPs & OSs - these all pose significant risk for personal exposure. Keep all things neat; fortify yourself against vultures.
 - _This code is 100% ASCII text, and does not encrypt or obfuscate anything. All processing occurs as plain text and simple data structures._
 - **Your privacy is ultimately your own concern. Keep this in mind. &#x2661;**
 
