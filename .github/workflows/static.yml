@@ -34,7 +34,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout
+        uses: actions/checkout@main
 
       - name: Serialize to ASCII
         shell: python
@@ -92,10 +92,10 @@ jobs:
             f.write(html_text)
 
       - name: Setup Pages
-        uses: actions/configure-pages
+        uses: actions/configure-pages@main
 
       - name: Upload artifact
-        uses: actions/upload-pages-artifact
+        uses: actions/upload-pages-artifact@main
         with:
           # Upload entire repository
           path: '.'
