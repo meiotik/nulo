@@ -1,5 +1,5 @@
 <h1>&#x1d58e;&#x1d595;&#x1d598;&#x1d58a;&#32;&#x1d589;&#x1d58e;&#x1d59d;&#x1d58e;&#x1d599;&#32;&#x1d58b;&#x1d58e;&#x1d586;&#x1d599;&#32;&#x1d593;&#x1d59a;&#x1d591;&#x1d594;
-<a href="https://meiotik.github.io/nulo"><img align="right" src="./img/nulo.svg" alt="nulo logo" width="117"/></a>
+<a href="https://meiotik.github.io/nulo"><img align="right" src="nulo.svg" alt="nulo logo" width="117"/></a>
 </h1>
 
 # Wallet Statements Cost Basis Comptometer for [Luno](https://luno.com/).
@@ -24,6 +24,6 @@ This code runs entirely as local client-side JavaScript within your ES10+ web br
 - **Your privacy is ultimately your own concern. Keep this in mind. &#x2661;**
 
 <!--[![GNU General Public License version 3](./img/GPLv3.svg)](https://www.gnu.org/licenses/gpl-3.0.html) -->
-[<img align="right" src="./img/GPLv3.svg" alt="GNU General Public License version 3"/>](https://www.gnu.org/licenses/gpl-3.0.html)
+[<img align="right" src="GPLv3.svg" alt="GNU General Public License version 3"/>](https://www.gnu.org/licenses/gpl-3.0.html)
 ## Legal Notice
 This code is entirely independent and is not affiliated, associated, authorized, endorsed by, or in any way officially connected with [BitX](https://bitx.co.za/), [Luno PTY (Ltd)](https://luno.com), [Luno Global](https://x.com/lunoglobal), [DCG](https://dcg.co) or any of its subsidiaries or corporate affiliates.
