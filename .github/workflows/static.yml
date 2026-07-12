@@ -23,7 +23,7 @@ permissions:
 # However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
 concurrency:
   group: "pages"
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   # Single deploy job since we're just deploying
@@ -40,34 +40,56 @@ jobs:
         shell: python
         run: |
           import re
-          
-          def clean_to_ascii(text):
-              return "".join(char for char in text if ord(char) <= 127)
-          
-          # Read source files
+
+          def asciify(text):
+            return "".join(char if ord(char) <= 127 else "_" for char in text)
+
+          def minify(text, replace_rx, preserve_rx, comment_rx=None):
+            if comment_rx:
+              text = re.sub(comment_rx, '', text, flags=re.DOTALL)
+            preserve_tkns = []
+            def preserve(match):
+              preserve_tkns.append(match.group(0))
+              return f"___PRESERVE_{len(preserve_tkns)-1}___"
+            text = re.sub(preserve_rx, preserve, text)
+            for pattern, replace in replace_rx:
+              text = re.sub(pattern, replace, text, flags=re.DOTALL)
+            def restore(match):
+              return preserve_tkns[int(match.group(1))]
+            return re.sub(r'___PRESERVE_(\d+)___', restore, text).strip()
+
+          def minify_css(css_text):
+            css_preserve_rx = r'("[^"\\]*(?:\\.[^"\\]*)*"|\'[^\'\\]*(?:\\.[^\'\\]*)*\'|url\([^\)]+\))'
+            css_replace_rx = [(r'\s+', ' '), (r'\s*([\{\}\:\;,])\s*', r'\1'), (r';}', '}'), (r'[^\{\}]+\{\}', '')]
+            css_comment_rx = r'/\*.*?\*/'
+            return minify(css_text, css_replace_rx, css_preserve_rx, css_comment_rx)
+
+          def minify_js(js_text):
+            js_preserve_rx = r'("[^"\\]*(?:\\.[^"\\]*)*"|\'[^\'\\]*(?:\\.[^\'\\]*)*\'|`[^`\\]*(?:\\.[^`\\]*)*`|/(?![*+?])[^/\\\[]*(?:(?:\\.|\[[^\]\\]*(?:\\.[^\]\\]*)*\])[^/\\\[]*)*\/[gimy]*)"'
+            js_text = re.sub(r'//.*?\n', '\n', js_text)
+            js_replace_rx = [(r'[ \t]+', ' '), (r'\s*([\{\}\(\)\[\]\:\;,=\+\-\*\/<>!&\|])\s*', r'\1'), (r'\n+', '\n')]
+            js_comment_rx = r'/\*.*?\*/'
+            return minify(js_text, js_replace_rx, js_preserve_rx, js_comment_rx)
+
+          def minify_html(html_text):
+            html_preserve_rx = r'(<pre\b[^>]*>.*?</pre>|<code\b[^>]*>.*?</code>|"[^"]*"|\'[^\']*\')'
+            html_replace_rx = [(r'\s+', ' '), (r'>\s+<', '><')]
+            html_comment_rx = r'<!--.*?-->'
+            return minify(html_text, html_replace_rx, html_preserve_rx, html_comment_rx)
+
           with open("nulo.html", "r", encoding="utf-8") as f:
-              html = clean_to_ascii(f.read())
+            html_text = minify_html(f.read())
           with open("nulo.css", "r", encoding="utf-8") as f:
-              css = clean_to_ascii(f.read())
+            css_text = minify_css(f.read())
           with open("nulo.js", "r", encoding="utf-8") as f:
-              js = clean_to_ascii(f.read())
+            js_text = minify_js(f.read())
 
-          # Format replacement tags
-          #inline_css = f"<style>\n{css}\n</style>"
-          #inline_js = f"<script>\n{js}\n</script>"
+          html_text = re.sub(r'@import\s+url\(["\']?.*?nulo\.css["\']?\);?', lambda m: css_text, html_text, flags=re.IGNORECASE)
+          html_text = re.sub(r'fetch\(["\']\./nulo\.js["\']\)\s*\.\s*then\(\s*r\s*=>\s*r\.text\(\)\s*\)\s*\.\s*then\(\s*eval\s*\);?', lambda m: js_text, html_text, flags=re.IGNORECASE)
+          html_text = asciify(html_text)
 
-          # Inline replace the CSS @import line
-          html = re.sub(r'@import\s+url\(["\']?.*?nulo\.css["\']?\);?', lambda m: css, html, flags=re.IGNORECASE)
-                    
-          # Inline replace the JS fetch shortie line
-          html = re.sub(r'fetch\(["\']\./nulo\.js["\']\)\s*\.\s*then\(\s*r\s*=>\s*r\.text\(\)\s*\)\s*\.\s*then\(\s*eval\s*\);?', lambda m: js, html, flags=re.IGNORECASE)
-
-          # Double-check the final output just in case
-          html = clean_to_ascii(html)          
-
-          # Write out the generated index.html
           with open("index.html", "w", encoding="utf-8") as f:
-              f.write(html)
+            f.write(html_text)
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
