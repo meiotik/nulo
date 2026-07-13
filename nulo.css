@@ -1,10 +1,10 @@
 :root {
 	color-scheme: light dark;
-	--fgColor-accent:  light-dark(#117, #eef);
-	--fgColor-default: light-dark(#449, #aae);
-	--fgColor-muted:   light-dark(#77a, #77d);
-	--bgColor-muted:   light-dark(#aac, #44c);
-	--bgColor-default: light-dark(#eee, #11b);
+	--fgColor-accent:  light-dark(#11b, #eee);
+	--fgColor-default: light-dark(#44c, #aac);
+	--fgColor-muted:   light-dark(#77d, #77a);
+	--bgColor-muted:   light-dark(#aae, #449);
+	--bgColor-default: light-dark(#eef, #117);
 }
 
 body {
