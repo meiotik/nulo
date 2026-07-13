@@ -11,6 +11,6 @@
 <use href="#o" class="s" style="filter:brightness(1.5);animation-delay:.25s"/>
 <use href="#o" class="s" style="filter:brightness(2)"/>
 </g></defs>
-<g fill="none" stroke-width="40" stroke-linecap="round">
+<g fill="none" stroke-width="35" stroke-linecap="round">
 <use href="#5o" x="95" y="125"/>
 </g></svg>
