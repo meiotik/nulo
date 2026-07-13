@@ -25,6 +25,6 @@ This code runs entirely as local client-side JavaScript within your ES10+ web br
 - **Your privacy is ultimately your own concern. Keep this in mind. &#x2661;**
 
 <!--[![GNU General Public License version 3](./img/GPLv3.svg)](https://www.gnu.org/licenses/gpl-3.0.html) -->
-[<img align="right" src="GPLv3.svg" alt="GNU General Public License version 3"/>](https://www.gnu.org/licenses/gpl-3.0.html)
+[<img align="right" src="GPLv3.svg" alt="GNU General Public License version 3"/>](LICENSE)
 ## Legal Notice
 This code is entirely independent and is not affiliated, associated, authorized, endorsed by, or in any way officially connected with [BitX](https://bitx.co.za/), [Luno PTY (Ltd)](https://luno.com), [Luno Global](https://x.com/lunoglobal), [DCG](https://dcg.co) or any of its subsidiaries or corporate affiliates.
