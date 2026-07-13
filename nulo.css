@@ -1,19 +1,32 @@
-body, html {
+:root {
+	color-scheme: light dark;
+	--fgColor-accent:  light-dark(#117, #eef);
+	--fgColor-default: light-dark(#449, #aae);
+	--fgColor-muted:   light-dark(#77a, #77d);
+	--bgColor-muted:   light-dark(#aac, #44c);
+	--bgColor-default: light-dark(#eee, #11b);
+}
+
+body {
+	background-color: var(--bgColor-default);
+	color: var(--fgColor-default);
+	font-family: system-ui, -apple-system, sans-serif;
+	height: 100%;
 	margin: 0;
+	overflow: hidden;
 	padding: 0;
 	width: 100%;
-	height: 100%;
-	font-family: system-ui,-apple-system,sans-serif;
-	background-color: #eee;
-	color: #134;
-	overflow: hidden;
+}
+
+h1 {
+  color: var(--fgColor-accent);
 }
 
 .file {
-	position: relative;
-	display: inline-block;
 	cursor: pointer;
+	display: inline-block;
 	height: 1.5rem;
+	position: relative;
 }
 
 .file input {
@@ -24,23 +37,23 @@ body, html {
 }
 
 .file-custom {
-	position: absolute;
-	top: 0;
-	right: 0;
-	left: 0;
-	z-index: 5;
-	height: 1.5rem;
-	padding: .5rem 1rem;
-	line-height: 1.5;
-	color: #555;
-	background-color: #fff;
-	border: .075rem solid #ddd;
+	background-color: var(--bgColor-muted);
 	border-radius: .25rem;
+	border: .075rem solid var(--fgColor-muted);
 	box-shadow: inset 0 .2rem .4rem rgba(0,0,0,.05);
 	-webkit-user-select: none;
 	   -moz-user-select: none;
 	    -ms-user-select: none;
 	        user-select: none;
+	color: var(--fgColor-muted);
+	height: 1.5rem;
+	left: 0;
+	line-height: 1.5;
+	padding: .5rem 1rem;
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 5;
 }
 
 .file-custom:after {
@@ -48,62 +61,62 @@ body, html {
 }
 
 .file-custom:before {
-	position: absolute;
-	top: -.075rem;
-	right: -.075rem;
-	bottom: -.075rem;
-	z-index: 6;
-	display: block;
-	content: "\1f4c2\fe0f";
-	height: 1.5rem;
-	padding: .5rem 1rem;
-	line-height: 1.5;
-	color: #555;
-	background-color: #eee;
-	border: .075rem solid #ddd;
+	background-color: var(--bgColor-muted);
 	border-radius: 0 .25rem .25rem 0;
+	border: .075rem solid var(--bgColor-muted);
+	bottom: -.075rem;
+	color: var(--fgColor-muted);
+	content: "\1f4c2\fe0f";
+	display: block;
+	height: 1.5rem;
+	line-height: 1.5;
+	padding: .5rem 1rem;
+	position: absolute;
+	right: -.075rem;
+	top: -.075rem;
+	z-index: 6;
 }
 
 .file input:focus ~ .file-custom {
-	box-shadow: 0 0 0 .075rem #fff, 0 0 0 .3rem #07d;
+	box-shadow: 0 0 0 .075rem var(--fgColor-muted), 0 0 0 .3rem var(--bgColor-muted);
 }
 
 #drop-zone-overlay {
-	opacity: 0.4;
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	background-color: #ddd;
+	align-items: center;
+	background-color: var(--bgColor-muted);
 	border: 0.25rem dashed transparent;
 	display: flex;
+	height: 100%;
 	justify-content: center;
-	align-items: center;
-	z-index: 5;
-	transition: all 0.2s ease;
+	left: 0;
+	opacity: 0.4;
 	pointer-events: none;
+	position: fixed;
+	top: 0;
+	transition: all 0.2s ease;
+	width: 100%;
+	z-index: 5;
 }
 
 #drop-zone-overlay.drag-active {
-	background-color: #ccc;
-	border-color: #48f;
+	background-color: var(--bgColor-muted);
+	border-color: var(--fgColor-muted);
 }
 
 #drop-zone-overlay .overlay-prompt {
-	padding: 5rem 10rem;
+	background-color: var(--bgColor-muted);
 	border-radius: .25rem;
-	box-shadow: 0 1rem 2rem -2rem #666;
+	box-shadow: 0 1rem 2rem -2rem var(--bgColor-default);
+	color: var(--fgColor-muted);
 	font-size: 1.2rem;
 	font-weight: bold;
-	color: #26e;
-	background-color: #ccc;
-	transform: scale(0.9);
 	opacity: 0;
+	padding: 5rem 10rem;
+	transform: scale(0.9);
 	transition: all 0.2s ease;
 }
 
 #drop-zone-overlay.drag-active .overlay-prompt {
-	transform: scale(1);
 	opacity: 1;
+	transform: scale(1);
 }
