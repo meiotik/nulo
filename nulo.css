@@ -4,10 +4,10 @@
 	--color-bg: light-dark(#fff, #222);
 	--color-fg-muted: light-dark(#666, #bbb);
 	--color-bg-muted: light-dark(#ddd, #444);
-	--color-3:  light-dark(#016, #fd0);
-	--color-2:  light-dark(#038, #eb0);
-	--color-1:  light-dark(#05a, #d90);
-	--color-0:  light-dark(#07c, #c70);
+	--color-3:  light-dark(#07c, #fd0);
+	--color-2:  light-dark(#05a, #eb0);
+	--color-1:  light-dark(#038, #d90);
+	--color-0:  light-dark(#016, #c70);
 }
 
 body {
@@ -19,10 +19,6 @@ body {
 	overflow: hidden;
 	padding: 0;
 	width: 100%;
-}
-
-h1 {
-  color: var(--fgColor-accent);
 }
 
 .file {
