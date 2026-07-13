@@ -62,8 +62,8 @@ h1 {
 
 .file-custom:before {
 	background-color: var(--bgColor-muted);
-	border: .075rem solid var(--bgColor-muted);
-	border-radius: .25rem
+	border: .075rem solid var(--fgColor-muted);
+	border-radius: .25rem;
 	bottom: -.075rem;
 	color: var(--fgColor-muted);
 	content: "\1f4c2\fe0f";
