@@ -1,9 +1,9 @@
 <h1>&#x1d58e;&#x1d595;&#x1d598;&#x1d58a;&#32;&#x1d589;&#x1d58e;&#x1d59d;&#x1d58e;&#x1d599;&#32;&#x1d58b;&#x1d58e;&#x1d586;&#x1d599;&#32;
 <a href="https://meiotik.github.io/nulo"><img src="nulo.svg" alt="&#x1d593;&#x1d59a;&#x1d591;&#x1d594;" style="height:1.5rem"/></a>
-<a href="https://meiotik.github.io/nulo"><img align="right" src="sine-o.svg" alt="index.html" width="57"/></a>
 </h1>
 
 # Wallet Statements Cost Basis Comptometer for [Luno](https://luno.com/).
+<a href="https://meiotik.github.io/nulo"><img align="right" src="sine-o.svg" alt="index.html" width="57"/></a>
 
 ## [How to](https://www.luno.com/help/en/articles/262965628183749) export your wallet statements from Luno?
 1. Sign into your [Luno account](https://luno.com/login) using a web browser.
