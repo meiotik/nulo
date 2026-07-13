@@ -1,5 +1,5 @@
 <h1>&#x1d58e;&#x1d595;&#x1d598;&#x1d58a;&#32;&#x1d589;&#x1d58e;&#x1d59d;&#x1d58e;&#x1d599;&#32;&#x1d58b;&#x1d58e;&#x1d586;&#x1d599;&#32;
-<a href="https://meiotik.github.io/nulo"><img src="nulo.svg" alt="&#x1d593;&#x1d59a;&#x1d591;&#x1d594;" style="height:0.75em"/></a>
+<a href="https://meiotik.github.io/nulo"><img src="nulo.svg" alt="&#x1d593;&#x1d59a;&#x1d591;&#x1d594;" style="height:1em"/></a>
 <a href="https://meiotik.github.io/nulo"><img align="right" src="sine-o.svg" alt="index.html" style="height:1em"/></a>
 </h1>
 
