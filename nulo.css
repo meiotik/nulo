@@ -1,18 +1,19 @@
 :root {
 	color-scheme: light dark;
-	--color-fg: light-dark(#444, #ddd);
-	--color-bg: light-dark(#fff, #222);
-	--color-fg-muted: light-dark(#666, #bbb);
-	--color-bg-muted: light-dark(#ddd, #444);
-	--color-3:  light-dark(#07c, #fd0);
-	--color-2:  light-dark(#05a, #eb0);
-	--color-1:  light-dark(#038, #d90);
-	--color-0:  light-dark(#016, #c70);
+	--color-fg0: light-dark(#444, #ddd);
+	--color-bg0: light-dark(#fff, #222);
+	--color-fg1: light-dark(#666, #bbb);
+	--color-bg1: light-dark(#ddd, #444);
+	--color-4:   light-dark(#09e, #b50);
+	--color-3:   light-dark(#07c, #c70);
+	--color-2:   light-dark(#05a, #d90);
+	--color-1:   light-dark(#038, #eb0);
+	--color-0:   light-dark(#016, #fd0);
 }
 
 body {
-	background-color: var(--color-bg);
-	color: var(--color-fg);
+	background-color: var(--color-bg0);
+	color: var(--color-fg0);
 	font-family: system-ui, -apple-system, sans-serif;
 	height: 100%;
 	margin: 0;
@@ -36,15 +37,15 @@ body {
 }
 
 .file-custom {
-	background-color: var(--color-bg-muted);
-	border: .075rem solid var(--color-fg-muted);
+	background-color: var(--color-bg1);
+	border: .075rem solid var(--color-fg1);
 	border-radius: .25rem;
-	box-shadow: inset 0 .2rem .4rem rgb(from var(--color-fg-muted) r g b / 5%);
+	box-shadow: inset 0 .2rem .4rem rgb(from var(--color-fg1) r g b / 5%);
 	-webkit-user-select: none;
 	   -moz-user-select: none;
 	    -ms-user-select: none;
 	        user-select: none;
-	color: var(--color-fg);
+	color: var(--color-fg0);
 	height: 1.5rem;
 	left: 0;
 	line-height: 1.5;
@@ -60,11 +61,11 @@ body {
 }
 
 .file-custom:before {
-	background-color: var(--color-bg-muted);
-	border: .075rem solid var(--color-fg-muted);
+	background-color: var(--color-bg1);
+	border: .075rem solid var(--color-fg1);
 	border-radius: .25rem;
 	bottom: -.075rem;
-	color: var(--color-fg-muted);
+	color: var(--color-fg1);
 	content: "\1f4c2\fe0f";
 	display: block;
 	height: 1.5rem;
@@ -77,12 +78,12 @@ body {
 }
 
 .file input:focus ~ .file-custom {
-	box-shadow: 0 0 0 .075rem var(--color-fg-muted), 0 0 0 .3rem var(--color-fg-muted);
+	box-shadow: 0 0 0 .075rem var(--color-fg1), 0 0 0 .3rem var(--color-fg1);
 }
 
 #drop-zone-overlay {
 	align-items: center;
-	background-color: var(--color-bg-muted);
+	background-color: var(--color-bg1);
 	border: 0.75rem dashed transparent;
 	display: flex;
 	height: 100%;
@@ -98,15 +99,15 @@ body {
 }
 
 #drop-zone-overlay.drag-active {
-	background-color: var(--color-bg);
-	border-color: var(--color-fg);
+	background-color: var(--color-bg0);
+	border-color: var(--color-fg0);
 }
 
 #drop-zone-overlay .overlay-prompt {
-	background-color: var(--color-bg-muted);
+	background-color: var(--color-bg1);
 	border-radius: .25rem;
-	box-shadow: 0 1rem 2rem -2rem var(--color-fg-muted);
-	color: var(--color-fg-muted);
+	box-shadow: 0 1rem 2rem -2rem var(--color-fg1);
+	color: var(--color-fg1);
 	font-size: 1.2rem;
 	font-weight: bold;
 	opacity: 0;
