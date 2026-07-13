@@ -38,8 +38,8 @@ h1 {
 
 .file-custom {
 	background-color: var(--bgColor-muted);
-	border-radius: .25rem;
 	border: .075rem solid var(--fgColor-muted);
+	border-radius: .25rem;
 	box-shadow: inset 0 .2rem .4rem rgb(from var(--bgColor-default) r g b / 5%);
 	-webkit-user-select: none;
 	   -moz-user-select: none;
@@ -62,8 +62,8 @@ h1 {
 
 .file-custom:before {
 	background-color: var(--bgColor-muted);
-	border-radius: 0 .25rem .25rem 0;
 	border: .075rem solid var(--bgColor-muted);
+	border-radius: .25rem
 	bottom: -.075rem;
 	color: var(--fgColor-muted);
 	content: "\1f4c2\fe0f";
@@ -84,7 +84,7 @@ h1 {
 #drop-zone-overlay {
 	align-items: center;
 	background-color: var(--bgColor-muted);
-	border: 0.25rem dashed transparent;
+	border: 0.75rem dashed transparent;
 	display: flex;
 	height: 100%;
 	justify-content: center;
@@ -115,7 +115,6 @@ h1 {
 	transform: scale(0.9);
 	transition: all 0.2s ease;
 }
-
 #drop-zone-overlay.drag-active .overlay-prompt {
 	opacity: 1;
 	transform: scale(1);
