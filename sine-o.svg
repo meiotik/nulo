@@ -1,17 +1,16 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 190 250">
-<style>:root{color-scheme:light dark}
-@keyframes ks{
-0%,100%{transform:translateY(-30px)}
-50%{transform:translateY(30px)}}
-.s{animation: ks 2.5s ease-in-out infinite}
-</style><defs>
-<path id="o" d="M0-75A60 60 0 100 75 60 60 0 100-75"/><g id="os" stroke="light-dark(#05a,#fd0)">
-<use href="#o" class="s" stroke-opacity=".1" style="animation-delay: 1s"/>
-<use href="#o" class="s" stroke-opacity=".2" style="animation-delay: .75s"/>
-<use href="#o" class="s" stroke-opacity=".3" style="animation-delay: .5s"/>
-<use href="#o" class="s" stroke-opacity=".4" style="animation-delay: .25s"/>
+<style>:root{color-scheme:light dark}@keyframes kf{0%,
+100%{transform:translateY(-30px)}
+50% {transform:translateY(30px)}}
+.s{animation: kf 2.5s ease-in-out infinite}</style>
+<defs><path id="o" d="M0-75A60 60 0 100 75 60 60 0 100-75"/>
+<g id="5o" stroke="light-dark(#05a,#eb0)">
+<use href="#o" class="s" stroke-opacity=".2" style="animation-delay:1s"/>
+<use href="#o" class="s" stroke-opacity=".4" style="animation-delay:.75s"/>
+<use href="#o" class="s" stroke-opacity=".6" style="animation-delay:.5s"/>
+<use href="#o" class="s" stroke-opacity=".8" style="animation-delay:.25s"/>
 <use href="#o" class="s"/>
 </g></defs>
 <g fill="none" stroke-width="40" stroke-linecap="round">
-<use href="#os" x="95" y="125"/>
+<use href="#5o" x="95" y="125"/>
 </g></svg>
