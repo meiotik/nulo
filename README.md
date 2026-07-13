@@ -1,4 +1,4 @@
-<h1>&#x1d58e;&#x1d595;&#x1d598;&#x1d58a;&#32;&#x1d589;&#x1d58e;&#x1d59d;&#x1d58e;&#x1d599;&#32;&#x1d58b;&#x1d58e;&#x1d586;&#x1d599;&#32;&#x1d593;&#x1d59a;&#x1d591;&#x1d594;><img src="nulo.svg" alt="index.html" width="117"/>
+<h1>&#x1d58e;&#x1d595;&#x1d598;&#x1d58a;&#32;&#x1d589;&#x1d58e;&#x1d59d;&#x1d58e;&#x1d599;&#32;&#x1d58b;&#x1d58e;&#x1d586;&#x1d599;&#32;<!--&#x1d593;&#x1d59a;&#x1d591;&#x1d594;--><img src="nulo.svg" alt="index.html" width="117"/>
 <a href="https://meiotik.github.io/nulo"><img align="right" src="sine-o.svg" alt="index.html" width="117"/></a>
 </h1>
 
