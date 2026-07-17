@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="-6.5 -9.5 13 19" width="52" height="76" stroke-width="3" stroke-linecap="round" style="opacity:.7;--t:2s">
 <style>
-use{animation:k var(--t) ease-in-out infinite;filter:brightness(var(--b));animation-delay:calc(var(--t)*var(--d));stroke:#f70;@media(prefers-color-scheme:dark){stroke:#07f};fill:none}
+use{animation:k var(--t) ease-in-out infinite;filter:brightness(var(--b));animation-delay:calc(var(--t)*var(--d));stroke:#07f;@media(prefers-color-scheme:dark){stroke:#f70};fill:none}
 @keyframes k{0%,to{transform:translateY(-3px)}50%{transform:translateY(3px)}}
 </style>
 <defs><path id="o" d="M0-5A4 4 0 100 5 4 4 0 100-5"/></defs>
