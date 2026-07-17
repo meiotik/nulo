@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#59f" stroke-linecap="round" width="16" height="16" stroke-width="6" viewBox="-10 -10 20 20" style="--t:6s">
 <style>@keyframes kf{0%{stroke-dashoffset:var(--l)}10%,15%{stroke-dashoffset:0}25%,to{stroke-dashoffset:calc(var(--l)*-1px)}}path{stroke-dasharray:var(--l);stroke-dashoffset:var(--l);animation:kf var(--t) ease-in-out infinite}</style>
-<path d="M-6 7v-8q0-6 6-6t6 6v8" style="--l:36"/>
-<path d="M6-7v8q0 6-6 6t-6-6v-8" style="--l:36;animation-delay:calc(var(--t)*.25)"/>
-<path d="M-6-7v8q0 6 6 6h4" style="--l:22;animation-delay:calc(var(--t)*.5)"/>
-<path d="M0 7A6 6 0 110-7 6 6 0 110 7" style="--l:44;animation-delay:calc(var(--t)*.75)"/>
+<path d="M-6 7v-8q0-6 6-6t6 6v8" style="--l:36"></path>
+<path d="M6-7v8q0 6-6 6t-6-6v-8" style="--l:36;animation-delay:calc(var(--t)*.25)"></path>
+<path d="M-6-7v8q0 6 6 6h4" style="--l:22;animation-delay:calc(var(--t)*.5)"></path>
+<path d="M0 7A6 6 0 110-7 6 6 0 110 7" style="--l:44;animation-delay:calc(var(--t)*.75)"></path>
 </svg>
