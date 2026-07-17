@@ -1,9 +1,9 @@
 <svg viewBox="-6.5 -9.5 13 19" width="52" height="76" stroke-width="3" stroke-linecap="round" style="opacity:.85;--t:2s">
 <style>use{animation:k var(--t) ease-in-out infinite;filter:brightness(var(--b));animation-delay:calc(var(--t)*var(--d));stroke:#07f;@media(prefers-color-scheme:dark){stroke:#f70};fill:none}@keyframes k{0%,to{transform:translateY(-3px)}50%{transform:translateY(3px)}}</style>
-<defs><path id="o" d="M0-5A4 4 0 100 5 4 4 0 100-5"/></defs>
-<use href="#o" style="--d:.4;--b:.4"/>
-<use href="#o" style="--d:.3;--b:.6"/>
-<use href="#o" style="--d:.2;--b:.8"/>
-<use href="#o" style="--d:.1;--b:1"/>
-<use href="#o" style="--d:0;--b:2"/>
+<defs><path id="o" d="M0-5A4 4 0 100 5 4 4 0 100-5"></path></defs>
+<use href="#o" style="--d:.4;--b:.4"></use>
+<use href="#o" style="--d:.3;--b:.6"></use>
+<use href="#o" style="--d:.2;--b:.8"></use>
+<use href="#o" style="--d:.1;--b:1"></use>
+<use href="#o" style="--d:0;--b:2"></use>
 </svg>
