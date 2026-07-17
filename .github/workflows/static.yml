@@ -9,6 +9,7 @@ on:
       - "nulo.html"
       - "nulo.css"
       - "nulo.js"
+      - "favicon.svg"
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -87,9 +88,14 @@ jobs:
           html_text = re.sub(r'@import\s+url\(["\']?.*?nulo\.css["\']?\);?', lambda m: css_text, html_text, flags=re.IGNORECASE)
           html_text = re.sub(r'fetch\(["\']nulo\.js["\']\)\s*\.\s*then\(\s*r\s*=>\s*r\.text\(\)\s*\)\s*\.\s*then\(\s*eval\s*\);?', lambda m: js_text, html_text, flags=re.IGNORECASE)
           html_text = asciify(html_text)
-
           with open("index.html", "w", encoding="utf-8") as f:
             f.write(html_text)
+
+          with open("favicon.svg", "r", encoding="utf-8") as f:
+            svg_text = minify_html(f.read())
+          svg_text = asciify(svg_text)
+          with open("favicon.svg", "w", encoding="utf-8") as f:
+            f.write(svg_text)
 
       - name: Setup Pages
         uses: actions/configure-pages@main
