@@ -1,16 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 190 250">
-<style>:root{color-scheme:light dark}@keyframes kf{0%,
-100%{transform:translateY(-30px)}
-50% {transform:translateY(30px)}}
-.s{animation: kf 2.5s ease-in-out infinite}</style>
-<defs><path id="o" d="M0-75A60 60 0 100 75 60 60 0 100-75"/>
-<g id="5o" stroke="light-dark(#07f,#f70)">
-<use href="#o" class="s" style="filter:brightness(.5);animation-delay:1s"/>
-<use href="#o" class="s" style="filter:brightness(.8);animation-delay:.75s"/>
-<use href="#o" class="s" style="filter:brightness(1.1);animation-delay:.5s"/>
-<use href="#o" class="s" style="filter:brightness(1.5);animation-delay:.25s"/>
-<use href="#o" class="s" style="filter:brightness(2)"/>
-</g></defs>
-<g fill="none" stroke-width="35" stroke-linecap="round">
-<use href="#5o" x="95" y="125"/>
-</g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-6.5 -9.5 13 19" width="52" height="76" stroke-width="3" stroke-linecap="round" style="--t:2s">
+<style>
+use{animation:k var(--t) ease-in-out infinite;filter:brightness(var(--b));animation-delay:calc(var(--t)*var(--d));stroke:#f70;@media(prefers-color-scheme:dark){stroke:#07f};fill:none}
+@keyframes k{0%,to{transform:translateY(-3px)}50%{transform:translateY(3px)}}
+</style>
+<defs><path id="o" d="M0-5A4 4 0 100 5 4 4 0 100-5"/></defs>
+<use href="#o" style="--d:.4;--b:.4"/>
+<use href="#o" style="--d:.3;--b:.7"/>
+<use href="#o" style="--d:.2;--b:1"/>
+<use href="#o" style="--d:.1;--b:1.2"/>
+<use href="#o" style="--d:0;--b:2"/>
+</svg>
